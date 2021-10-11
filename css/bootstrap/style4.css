@@ -1,0 +1,48 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: #666;
+    background-color: #ffffff;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(/font/IRANSans_Medium.woff);
+}
+
+* {
+    font-family: myFirstFont;
+}
+
+.footer-icon {
+    font-size: xx-large;
+    color: rgb(0, 191, 214)
+}
+
+.footer-font {
+    font-size: 14px;
+    color: grey;
+}
